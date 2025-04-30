@@ -4,7 +4,7 @@
     Python API server for Retrieval-Augmented Generation (RAG) LlamaIndex with <a href="https://platform.openai.com/docs/models/gpt-4.1-mini">OpenAI Platform GPT-4.1-mini</a> over MySQL for Project Production Tracking.
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Web App</a>
+    <a href="https://production-tracking-ai-main-uwflbm.laravel.cloud/">View Web App</a>
   </p>
 </div>
 
@@ -34,5 +34,5 @@ Python Dependency
 ### Deploying 
 
  ```sh
-   uvicorn main:app --host 0.0.0.0 --port 80
+   uvicorn main:app --host 0.0.0.0 --port 10000
    ```
